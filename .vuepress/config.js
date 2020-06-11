@@ -6,7 +6,8 @@ module.exports = {
       description: '任何不能够给你快乐的编程都是耍流氓'
     }
   },
-  dest: 'public',
+  dest: 'public/timeline',
+  base: '/Blog/',
   head: [
     ['link', { rel: 'icon', href: '/favicon.ico' }],
     ['meta', { name: 'viewport', content: 'width=device-width,initial-scale=1,user-scalable=no' }]
