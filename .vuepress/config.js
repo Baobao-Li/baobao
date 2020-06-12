@@ -3,12 +3,13 @@ module.exports = {
     '/': {
       lang: 'zh-CN',
       title: '个人博客',
-      description: '希望我的答案对你有所帮助'
+      description: '希望我的答案对你有所帮助',
+      link: '/han.jpg'
     }
   },
   dest: 'public',
   head: [
-    ['link', { rel: 'icon', href: '/favicon.ico' }],
+    ['link', { rel: 'icon', href: '/han.jpg' }],
     ['meta', { name: 'viewport', content: 'width=device-width,initial-scale=1,user-scalable=no' }]
   ],
   theme: 'reco',
@@ -34,15 +35,15 @@ module.exports = {
     // 自动形成侧边导航
     // sidebar: 'auto',
     // 最后更新时间
-    lastUpdated: 'Last Updated',
+    // lastUpdated: 'Last Updated',
     // 作者
-    author: 'reco_luan',
+    // author: 'reco_luan',
     // 作者头像
-    authorAvatar: 'http://img0.imgtn.bdimg.com/it/u=1291611477,2704838439&fm=26&gp=0.jpg',
+    // authorAvatar: 'http://img0.imgtn.bdimg.com/it/u=1291611477,2704838439&fm=26&gp=0.jpg',
     // 备案号
-    record: 'xxxx',
+    // record: 'xxxx',
     // 项目开始时间
-    startYear: '2017'
+    // startYear: '2017'
     /**
      * 密钥 (if your blog is private)
      */
