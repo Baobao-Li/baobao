@@ -13,7 +13,7 @@ bgImageStyle: {
   height: '450px'
 }
 isShowTitleInHome: false
-actionText: Guide
+actionText: Let`s Go →
 actionLink: /views/other/guide
 features:
 - title: Yesterday

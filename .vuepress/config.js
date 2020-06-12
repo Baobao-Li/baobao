@@ -3,10 +3,10 @@ module.exports = {
     '/': {
       lang: 'zh-CN',
       title: '个人博客',
-      description: '任何不能够给你快乐的编程都是耍流氓'
+      description: '希望我的答案对你有所帮助'
     }
   },
-  dest: './index.html',
+  dest: 'public',
   head: [
     ['link', { rel: 'icon', href: '/favicon.ico' }],
     ['meta', { name: 'viewport', content: 'width=device-width,initial-scale=1,user-scalable=no' }]
@@ -14,50 +14,19 @@ module.exports = {
   theme: 'reco',
   themeConfig: {
     nav: [
-      { text: '首页', link: '/', icon: 'reco-home' },
-      { text: '无1', link: '/timeline/', icon: 'reco-date' },
+      { text: '算法', link: '/', icon: 'reco-home' },
+      { text: '面试', link: '/timeline/', icon: 'reco-date' },
       {
-        text: '无2',
+        text: '框架',
         items: [
           { text: 'vuepress-reco', link: '/docs/theme-reco/' }
         ]
       },
       { text: 'GitHub', link: 'https://github.com/recoluan', icon: 'reco-github' }
     ],
-    sidebar: {
-      '/docs/theme-reco/': [
-        '',
-        'theme',
-        'plugin',
-        'api'
-      ]
-    },
-    type: 'blog',
-    // 博客设置
-    blogConfig: {
-      category: {
-        location: 2, // 在导航栏菜单中所占的位置，默认2
-        text: 'Category' // 默认 “分类”
-      },
-      tag: {
-        location: 3, // 在导航栏菜单中所占的位置，默认3
-        text: 'Tag' // 默认 “标签”
-      }
-    },
-    friendLink: [
-      {
-        title: '午后南杂',
-        desc: 'Enjoy when you can, and endure when you must.',
-        email: '1156743527@qq.com',
-        link: 'https://www.recoluan.com'
-      },
-      {
-        title: 'vuepress-theme-reco',
-        desc: 'A simple and beautiful vuepress Blog & Doc theme.',
-        avatar: "https://vuepress-theme-reco.recoluan.com/icon_vuepress_reco.png",
-        link: 'https://vuepress-theme-reco.recoluan.com'
-      },
-    ],
+
+    
+
     
     // 搜索设置
     search: true,
