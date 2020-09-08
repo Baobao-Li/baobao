@@ -8,9 +8,9 @@ https://github.com/Baobao-Li/Blog.git
 
 > Please make sure your version of Node.js is greater than 8.
 
-``` bash
+<!-- ``` bash -->
 # 安装依赖 
-npm i 
+## npm i 
 
 # 启动开发服务
-npm run dev
+## npm run dev
