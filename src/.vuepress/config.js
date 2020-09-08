@@ -9,11 +9,14 @@ module.exports = {
   themeConfig: {
     // 导航栏 Logo
     logo: '/logo.jpg',
-    // HitHub
-    repo: 'https://github.com/Baobao-Li/Blog',
     // 开启侧边栏
     sidebar: 'auto',
     nav: [
+      {
+        text: '首页',
+        link: '/',
+        icon: 'reco-home'
+      },
       {
         text: '快速搭建开发环境',
         link: '/exploit/Start.md'
@@ -24,7 +27,11 @@ module.exports = {
           { text: 'Vue', link: '/web/Vue.md'},
           { text: 'React', link: '/web/React.md'},
         ]
-      }
+      },
+      {
+        text: 'GitHub',
+        link: 'https://github.com/Baobao-Li/Blog'
+      },
     ]
   }
 }
