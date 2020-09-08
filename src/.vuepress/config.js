@@ -4,9 +4,14 @@ module.exports = {
   title: "知识点总结",
   description: '任何不能够给你快乐的编程都是耍流氓',
   head: [
-    ['link', {rel: 'icon',href: '/logo.jpg'}]
+    ['link', { rel: 'icon', href: '/logo.jpg' }]
   ],
+
   themeConfig: {
+    // 搜索设置
+    search: true,
+    searchMaxSuggestions: 10,
+
     // 导航栏 Logo
     logo: '/logo.jpg',
     // 开启侧边栏
@@ -24,8 +29,8 @@ module.exports = {
       {
         text: 'Web前端',
         items: [
-          { text: 'Vue', link: '/web/Vue.md'},
-          { text: 'React', link: '/web/React.md'},
+          { text: 'Vue', link: '/web/Vue.md' },
+          { text: 'React', link: '/web/React.md' },
         ]
       },
       {
