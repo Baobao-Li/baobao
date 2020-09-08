@@ -11,7 +11,6 @@ module.exports = {
     // 搜索设置
     search: true,
     searchMaxSuggestions: 10,
-
     // 导航栏 Logo
     logo: '/logo.jpg',
     // 开启侧边栏
