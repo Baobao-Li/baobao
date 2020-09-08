@@ -20,7 +20,10 @@ module.exports = {
       },
       {
         text: 'Web前端',
-        link: '/zh/standard/St.md'
+        items: [
+          { text: 'Vue', link: '/web/Vue.md'},
+          { text: 'React', link: '/web/React.md'},
+        ]
       }
     ]
   }
