@@ -1,4 +1,5 @@
 module.exports = {
+  dest: './docs/',
   base: '/Blog/',
   title: "知识点总结",
   description: '任何不能够给你快乐的编程都是耍流氓',
@@ -10,14 +11,12 @@ module.exports = {
     logo: '/logo.jpg',
     // HitHub
     repo: 'https://github.com/Baobao-Li/Blog',
+    // 开启侧边栏
     sidebar: 'auto',
-    displayAllHeaders: true,
-    docsDir: 'src',
-    editLinks: true,
     nav: [
       {
         text: '快速搭建开发环境',
-        link: '/zh/standard/Start.md'
+        link: '/exploit/Start.md'
       },
       {
         text: 'Web前端',
