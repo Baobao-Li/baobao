@@ -30,7 +30,7 @@ module.exports = {
       },
       {
         text: 'Web前端',
-        icon: 'reco-category',
+        link: '/web',
         items: [
           { text: 'Vue', link: '/web/Vue.md' },
           { text: 'React', link: '/web/React.md' },
