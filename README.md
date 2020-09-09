@@ -3,8 +3,8 @@
 </p>
 
 
-# 安装依赖 
-npm i 
+## 安装依赖 
+### npm i 
 
-#  启动开发服务
-npm run dev
+##  启动开发服务
+### npm run dev
