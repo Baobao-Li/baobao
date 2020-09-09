@@ -6,7 +6,7 @@ module.exports = {
   head: [
     ['link', { rel: 'icon', href: '/logo.jpg' }]
   ],
-
+  theme: 'reco',
   themeConfig: {
     // 搜索设置
     search: true,
@@ -15,6 +15,7 @@ module.exports = {
     logo: '/logo.jpg',
     // 开启侧边栏
     sidebar: 'auto',
+    sidebarDepth: 2,
     // 导航
     nav: [
       {
@@ -44,11 +45,9 @@ module.exports = {
     lastUpdated: '上次更新', // string | boolean
     // 作者
     author: 'Baobao-Li',
-    // 备案号
-    record: '京ICP备17067634号-1',
     // 项目开始时间
-    startYear: '2019',
+    startYear: '2020',
     // 如果你的文档不在仓库的根部
-    docsDir: 'src',
+    docsDir: 'docs',
   }
 }
