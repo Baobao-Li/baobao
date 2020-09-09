@@ -3,11 +3,23 @@ module.exports = {
   base: '/Blog/',
   title: "知识点总结",
   description: '任何不能够给你快乐的编程都是耍流氓',
+  // markdown: {
+  //   toc: { includeLevel: [2, 3] }
+  // },
   head: [
-    ['link', { rel: 'icon', href: '/logo.jpg' }]
+    ['link', { rel: 'icon', href: '/logo.jpg' }],
+    ['meta', { name: 'viewport', content: 'width=device-width,initial-scale=1,user-scalable=no' }]
   ],
+  // 主题
   theme: 'reco',
   themeConfig: {
+    // 博客配置
+    // blogConfig: {
+      // category: {
+        // location: 2,     // 在导航栏菜单中所占的位置，默认2
+        // text: 'Category' // 默认文案 “分类”
+      // },
+    // },
     // 搜索设置
     search: true,
     searchMaxSuggestions: 10,
@@ -15,32 +27,15 @@ module.exports = {
     logo: '/logo.jpg',
     // 开启侧边栏
     sidebar: 'auto',
-    sidebarDepth: 2,
+    sidebarDepth: 1,
     // 导航
     nav: [
-      {
-        text: '首页',
-        link: '/',
-        icon: 'reco-home'
-      },
-      {
-        text: '快速搭建开发环境',
-        link: '/exploit/Start.md',
-        icon: 'reco-document'
-      },
-      {
-        text: 'Web前端',
-        link: '/web',
-        items: [
-          { text: 'Vue', link: '/web/Vue.md' },
-          { text: 'React', link: '/web/React.md' },
-        ]
-      },
-      {
-        text: 'GitHub',
-        link: 'https://github.com/Baobao-Li/Blog',
-        icon: 'reco-github'
-      },
+      {text: '首页',link: '/',icon: 'reco-home'},
+      {text: '快速搭建开发环境',link: '/exploit/Start.md',icon: 'reco-document'},
+      {text: 'Web前端',link: '/web',items: [
+        { text: 'Vue', link: '/web/Vue.md' },
+        { text: 'React', link: '/web/React.md' },]},
+      {text: 'GitHub',link: 'https://github.com/Baobao-Li/Blog',icon: 'reco-github'},
     ],
 
     // 最后更新时间
