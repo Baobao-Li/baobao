@@ -14,5 +14,5 @@ actionLink: /exploit/Start.html
 #   details: 把所有的希望给明天
 
   # 页脚信息
-footer: https://baobao-li.github.io/Blog/
+# footer: https://baobao-li.github.io/Blog/
 ---

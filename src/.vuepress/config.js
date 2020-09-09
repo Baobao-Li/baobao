@@ -15,6 +15,7 @@ module.exports = {
     logo: '/logo.jpg',
     // 开启侧边栏
     sidebar: 'auto',
+    // 导航
     nav: [
       {
         text: '首页',
@@ -36,6 +37,18 @@ module.exports = {
         text: 'GitHub',
         link: 'https://github.com/Baobao-Li/Blog'
       },
-    ]
+    ],
+
+    // 最后更新时间
+    lastUpdated: true,
+    lastUpdated: '上次更新', // string | boolean
+    // 作者
+    author: 'Baobao-Li',
+    // 备案号
+    record: '京ICP备17067634号-1',
+    // 项目开始时间
+    startYear: '2019',
+    // 如果你的文档不在仓库的根部
+    docsDir: 'src',
   }
 }
