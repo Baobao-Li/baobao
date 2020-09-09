@@ -13,6 +13,6 @@ npm i
 npm run dev
 
 # 查看网站
-在浏览器输入：[https://baobao-li.github.io/Blog/](https://baobao-li.github.io/Blog/)
+在浏览器输入： https://baobao-li.github.io/Blog/
 
 ```
