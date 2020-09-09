@@ -25,10 +25,12 @@ module.exports = {
       },
       {
         text: '快速搭建开发环境',
-        link: '/exploit/Start.md'
+        link: '/exploit/Start.md',
+        icon: 'reco-document'
       },
       {
         text: 'Web前端',
+        icon: 'reco-category',
         items: [
           { text: 'Vue', link: '/web/Vue.md' },
           { text: 'React', link: '/web/React.md' },
@@ -36,7 +38,8 @@ module.exports = {
       },
       {
         text: 'GitHub',
-        link: 'https://github.com/Baobao-Li/Blog'
+        link: 'https://github.com/Baobao-Li/Blog',
+        icon: 'reco-github'
       },
     ],
 
@@ -49,5 +52,10 @@ module.exports = {
     startYear: '2020',
     // 如果你的文档不在仓库的根部
     docsDir: 'docs',
+    markdown: {
+      // 是否在每个代码块的左侧显示行号。
+      lineNumbers: true
+    },
+    // https://vuepress-theme-reco.recoluan.com/
   }
 }
