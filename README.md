@@ -3,15 +3,16 @@
 </p>
 
 ``` bash
-## 克隆项目
+# 克隆项目
 git clone https://github.com/Baobao-Li/Blog.git
-```
 
+# 安装依赖 
+npm i 
 
-``` bash
-## 安装依赖 
-### npm i 
+# 启动开发服务
+npm run dev
 
-##  启动开发服务
-### npm run dev
-```
+# 查看网站
+在浏览器输入： http://localhost:8080/Blog/
+
+``
