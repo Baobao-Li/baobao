@@ -87,7 +87,7 @@ module.exports = {
           }],
           '/web/Ts/': [{
             title: 'TypeScript', children: [
-              'TypeScript基础用法','TypeScript高级用法']
+              '','TypeScript高级用法']
           }],
           '/web/Git/': [{
             title: 'Git操作', children: [
