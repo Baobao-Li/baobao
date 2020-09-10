@@ -9,6 +9,36 @@
 https://github.com/Baobao-Li/Blog.git
 ```
 
+``` bash
+# 安装依赖
+npm i
+```
+
+``` bash
+# 启动服务
+npm run dev
+```
+
+``` bash
+# 构建静态目录
+npm run build
+```
+
+``` bash
+# 提交代码到仓库
+git push origin master
+```
+
+``` bash
+# 开启github pages
+设置source: master > docs > save
+```
+
+``` bash
+# 查看网站
+在浏览器里输入 https://[your account name].github.io/[store name]/
+```
+
 ```bash
 # 项目地址
 https://baobao-li.github.io/Blog/
@@ -18,9 +48,3 @@ https://baobao-li.github.io/Blog/
 
 > Please make sure your version of Node.js is greater than 8.
 
-<!-- ``` bash -->
-## 安装依赖 
-#### npm i 
-
-## 启动开发服务
-#### npm run dev
