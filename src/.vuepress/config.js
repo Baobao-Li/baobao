@@ -1,5 +1,5 @@
 module.exports = {
-  // dest: './docs/',
+  dest: './docs/',
   base: '/Blog/',
   locales: {
     '/': {
