@@ -80,7 +80,7 @@ module.exports = {
     // 项目开始时间
     startYear: '2020',
     // 如果你的文档不在仓库的根部
-    docsDir: 'docs',
+    docsDir: 'src',
     markdown: {
       // 是否在每个代码块的左侧显示行号。
       lineNumbers: true
