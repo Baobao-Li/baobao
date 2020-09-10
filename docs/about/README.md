@@ -64,11 +64,11 @@ isShowComments: true
 
 
 
-<script>
+<!-- <script>
 export default {
    components: {
     Time: () => import("../components/Time"),
     CanvasNest: () => import("../components/CanvasNest")
   },
 };
-</script>
+</script> -->

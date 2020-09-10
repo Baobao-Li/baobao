@@ -18,7 +18,7 @@ footer: MIT Licensed | Copyright © 2018-present Evan You
 
 ### 起步就像数 1, 2, 3 一样容易
 
-``` bash
+```bash
 # 安装
 yarn global add vuepress # 或 npm install -g vuepress
 
@@ -32,11 +32,17 @@ vuepress dev
 vuepress build
 ```
 
-::: warning 兼容性注意事项
+::: tip 兼容性注意事项
 - VuePress 要求 Node.js >= 8
 - 知识点总结需要持之以恒的积累
 - 立目标，定计划，不断总结，持续超越
 :::
+<br />
+
+[官方文档：https://www.vuepress.cn/](https://www.vuepress.cn/)
+<br />
+
+[主题文档：https://vuepress-theme-reco.recoluan.com/](https://vuepress-theme-reco.recoluan.com/)
 <br />
 
 [冰雨：https://bingyu123.gitee.io/blog/](https://bingyu123.gitee.io/blog/)
@@ -48,3 +54,10 @@ vuepress build
 [基础：https://blog.poetries.top/FE-Interview-Questions/](https://blog.poetries.top/FE-Interview-Questions/)
   <!-- # 页脚信息 -->
 <!-- # footer: https://baobao-li.github.io/Blog/ -->
+
+
+<!-- https://github.com/Baobao-Li/Blog -->
+<!-- https://baobao-li.github.io/Blog/ -->
+
+<!-- https://gitee.com/bingyu123/blog -->
+<!-- https://bingyu123.gitee.io/blog/ -->
