@@ -1,3 +1,6 @@
+---
+title: WSX
+---
 
 ##### wxs是什么？
 > WXS（WeiXin Script）是小程序的一套脚本语言，结合 WXML，可以构建出页面的结构。

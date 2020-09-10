@@ -1,3 +1,7 @@
+---
+title: Redux中间件
+---
+
 ##### 1、applyMiddleware
 - 方便调试，实时触发，线下使用
 

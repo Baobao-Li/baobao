@@ -1,3 +1,7 @@
+---
+title: Vue动画
+---
+
 #### 1、transition
 1. name=""  -> 手写
 2. animate.css   

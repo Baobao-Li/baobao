@@ -1,3 +1,6 @@
+---
+title: TypeScript高级用法
+---
 
 ## 环境配置
 ### 安装全局TypeScript

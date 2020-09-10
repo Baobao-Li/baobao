@@ -1,3 +1,7 @@
+---
+title: Props 
+---
+
 #### 1、和props相关
 - 只读，不准修改
 - componentWillReceiveProps  / 生命周期

@@ -1,3 +1,7 @@
+---
+title: JSX 
+---
+
 #### 1、jsx是什么?
 - React 使用 JSX 来替代常规的 JavaScript
 - JSX 是一个看起来很像 XML 的 JavaScript 语法扩展
