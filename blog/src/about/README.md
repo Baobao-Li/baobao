@@ -21,7 +21,6 @@ isShowComments: true
 <!-- 线条 -->
 <CanvasNest color="255,0,0" opacity='1'></CanvasNest>
 
-
 ::: theorem YOU AND ME
 世界上最远的距离，是我在 if 里你在 else 里，虽然经常一起出现，但却永不结伴执行。
 

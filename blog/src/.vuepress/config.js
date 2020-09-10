@@ -36,7 +36,7 @@ module.exports = {
           { text: '首页', link: '/', icon: 'reco-home' },
           { text: '快速搭建开发环境', link: '/exploit/', icon: 'reco-document' },
           {
-            text: 'Web知识点笔记',
+            text: 'Web知识点',
             items: [
               { text: '思维导图', link: '/web/Mind/' },
               { text: 'Vue', link: '/web/Vue/' },
