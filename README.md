@@ -39,12 +39,12 @@ git push origin master
 在浏览器里输入 https://[your account name].github.io/[store name]/
 ```
 
-```bash
-# 项目地址
-https://baobao-li.github.io/Blog/
-```
-
 ## Development
 
 > Please make sure your version of Node.js is greater than 8.
 
+
+```bash
+# 我的项目地址
+https://baobao-li.github.io/Blog/
+```
