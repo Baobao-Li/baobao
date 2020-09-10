@@ -2,9 +2,9 @@
 title: WSX
 ---
 
-##### wxs是什么？
+## wxs是什么？
 > WXS（WeiXin Script）是小程序的一套脚本语言，结合 WXML，可以构建出页面的结构。
-##### 注意
+## 注意
 1. wxs 不依赖于运行时的基础库版本，可以在所有版本的小程序中运行。
 1. wxs 与 javascript 是不同的语言，有自己的语法，并不和 javascript 一致。
 1. wxs 的运行环境和其他 javascript 代码是隔离的，wxs 中不能调用其他 javascript文件中定义的函数，也不能调用小程序提供的API。
@@ -12,7 +12,7 @@ title: WSX
 1. 由于运行环境的差异，在 iOS 设备上小程序内的 wxs 会比 javascript 代码快 2 ~ 20 倍。在 android 设备上二者运行效率无差异。
 
 
-##### 页面渲染
+## 页面渲染
 
 ```
 <!--wxml-->
@@ -29,7 +29,7 @@ title: WSX
 hello world
 ```
 
-##### 数据处理
+## 数据处理
 
 ```
 // page.js

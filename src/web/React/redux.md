@@ -2,7 +2,7 @@
 title: Redux
 ---
 
-##### 1、redux是什么？
+## 1、redux是什么？
 - 是一个框架
 - 跨组件通信
 #### 分四块内容
@@ -15,10 +15,10 @@ title: Redux
 1. 单一数据源
 2. State 是只读的
 3. 使用纯函数来执行修改
-##### 2、provider
+## 2、provider
 - 只有一个属性，是store
 - 顶层容器
-##### 3、connect
+## 3、connect
 - 伪高阶函数
 - 4个参数
 
@@ -65,10 +65,10 @@ const options = {
     // false 浅拷贝深拷贝都可以
 }
 ```
-##### 4、reducer
+## 4、reducer
 - 有两个参数：state action
 - 接收先前的 state 和 action，并返回新的 state
-##### 5、深拷贝和浅拷贝
+## 5、深拷贝和浅拷贝
 - 深拷贝 ...
 - 浅拷贝 Object.assign()
 ##### 5、store
@@ -77,7 +77,8 @@ const options = {
 
 > applyMiddleware 应用的中间件
 
-##### 6、combineReducers // 合并
+## 6、combineReducers
+-  合并
 
 ```
 import {combineReducers} from 'redux';

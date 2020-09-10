@@ -2,7 +2,7 @@
 title: Vue路由
 ---
 
-#### 1、路由(外置的) vue-router
+## 1、路由(外置的) vue-router
 
 ```
 import VueRouter from 'vue-router';
@@ -38,7 +38,7 @@ let router = new VueRouter({
 app.vue // 入口文件
 <router-view></router-view>
 ```
-#### 2、路由跳转路径
+## 2、路由跳转路径
 
 ```
 <router-link to="/music/recommd">推荐</router-link>

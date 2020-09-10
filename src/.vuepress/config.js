@@ -24,7 +24,6 @@ module.exports = {
     // sidebar: 'auto',
     // sidebarDepth: 1,
     locales: {
-
       '/': {
         label: '简体中文',
         repo: 'baobao-li/Blog',

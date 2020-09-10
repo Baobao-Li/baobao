@@ -2,7 +2,7 @@
 title: Redux中间件
 ---
 
-##### 1、applyMiddleware
+## 1、applyMiddleware
 - 方便调试，实时触发，线下使用
 
 ```
@@ -12,7 +12,7 @@ import Logger from 'redux-logger';
 
 export default createStore(reducers, applyMiddleware(Logger))
 ```
-##### 2、redux-thunk
+## 2、redux-thunk
 - 目的：异步解决方案
 - 支持action的写法有对象变为函数
 - 可以发送多个dispatch
@@ -41,11 +41,11 @@ dispatch((dispatch, getState)=>{
     })
 })
 ```
-##### 3、redux-saga
+## 3、redux-saga
 - 拦截请求
 - 解决异步
 - 不会改变action
 - take 拦截
 - takeEvery 每次都拦截
-##### 4、redux-thunk
+## 4、redux-thunk
 - 改写action

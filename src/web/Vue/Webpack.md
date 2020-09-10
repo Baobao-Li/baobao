@@ -2,19 +2,19 @@
 title: Webpack
 ---
 
-#### 1、简介
+## 1、简介
 - 模块的打包器(将多个文件打包为一个文件)
 - 自动化构建工具(和gulp类似)
 - 在webpack当中任何一个文件都需要一个loader解析文件
-#### 2、能干啥？
+## 2、能干啥？
 - 提升网站的响应速度，减少http 请求数
-##### 3_1、开始
+## 3_1、开始
 
 cnpm install -g webpack
 
 cnpm install -g webpack-cli
 
-##### 3_2、配置文件
+## 3_2、配置文件
 默认: webpack.config.js
 
 ```
@@ -112,7 +112,7 @@ module.exports = {
 // sass需要两个包
 // node-sass    sass-loader
 ```
-#### 4、引入 抛出
+## 4、引入 抛出
 
 ```
 引入: 
@@ -124,7 +124,7 @@ module.exports = {
 多：export let a = 6;
 
 ```
-#### 5、命令
+## 5、命令
 webpack.optimize.commonsChunkPlugin   // 实现多个文件中公共代码的提取
 
 setup()  // 为服务的中间件,可以对请求进行拦截

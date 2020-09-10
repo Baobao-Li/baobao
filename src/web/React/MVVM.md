@@ -1,11 +1,11 @@
 ---
 title: MVVM
 ---
-#### 1、MVVM是什么？
+## 1、MVVM是什么？
 1. MVVM是Model-View-ViewModel的简写
 2. 它本质上是MVC 的改进版
 3. MVVM（Model-View-ViewModel）框架的由来是MVP（Model-View-Presenter）模式与WPF结合的应用方式时发展演变过来的一种新型架构框架
-#### 2、MVVM优点
+## 2、MVVM优点
 
 - > MVVM模式和MVC模式一样，主要目的是分离视图（View）和模型（Model），有几大优点
 

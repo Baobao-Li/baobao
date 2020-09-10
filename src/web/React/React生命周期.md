@@ -2,8 +2,10 @@
 title: React生命周期
 ---
 
-#### 1、componentDidMount() // 组件挂载完成之后触发的生命周期 相当于vue的mounted
+## 1、componentDidMount() 
 ```
+组件挂载完成之后触发的生命周期 相当于vue的mounted
+
 componentDidMount(){
     setInterval(()=>{
         // 修改state的唯一方法
@@ -18,10 +20,14 @@ componentDidMount(){
 }
 
 ```
-#### 2、componentWillMount()  // 组件挂载之前 相当于vue的beforeMount
-#### 3、componentWillReceiveProps(nextProps)  // 组件将要接收新的props vue没有
-
+## 2、componentWillMount()  
 ```
+组件挂载之前 相当于vue的beforeMount
+```
+## 3、componentWillReceiveProps(nextProps)  
+```
+组件将要接收新的props vue没有
+
 // 和props相关的唯一一个生命周期
 // 执行完成之后，this.props指向新的props
 componentWillReceiveProps(nextProps){
@@ -32,8 +38,10 @@ componentWillReceiveProps(nextProps){
 
 
 ```
-#### 4、shouldComponentUpdate(nextProps,nextState)  // 通过返回值判断组件是否需要更新,用于react优化，vue没有 true更新，false不更新
+## 4、shouldComponentUpdate(nextProps,nextState)  
 ```
+通过返回值判断组件是否需要更新,用于react优化，vue没有 true更新，false不更新
+
 shouldComponentUpdate(nextProps,nextState){
     // 旧的props   this.props
     // 新的props   nextProps
@@ -44,14 +52,25 @@ shouldComponentUpdate(nextProps,nextState){
 
 
 ```
-#### 5、componentWillUpdate // 组件将要更新 相当于vue的beforeUpdate
-#### 6、componentDidUpdate // 组件更新完成 相当于vue的updated
-#### 7、componentWillUnmount() // 组件将要卸载
-#### 8、unmountComponentAtNode() // 卸载组件
+## 5、componentWillUpdate 
 ```
+组件将要更新 相当于vue的beforeUpdate
+```
+## 6、componentDidUpdate 
+```
+组件更新完成 相当于vue的updated
+```
+## 7、componentWillUnmount() 
+```
+组件将要卸载
+```
+## 8、unmountComponentAtNode() 
+```
+卸载组件
+
 ReactDom.unmountComponentAtNode(document.getElementById('root'))
 ```
-#### 9、分为三个阶段
+## 9、分为三个阶段
 1. 实例化阶段
 
 ```

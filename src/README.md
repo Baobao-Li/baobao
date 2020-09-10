@@ -45,6 +45,9 @@ vuepress build
 [主题文档：https://vuepress-theme-reco.recoluan.com/](https://vuepress-theme-reco.recoluan.com/)
 <br />
 
+[主题模板：https://zpj80231.gitee.io/znote/](https://zpj80231.gitee.io/znote/)
+<br />
+
 [冰雨：https://bingyu123.gitee.io/blog/](https://bingyu123.gitee.io/blog/)
 <br />
 

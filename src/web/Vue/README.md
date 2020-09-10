@@ -2,7 +2,7 @@
 title: Vue
 ---
 
-#### 1、Vue是什么?
+## 1、Vue是什么?
 - Vue是一个渐进式的javascript开发框架，通过组件的开发，最后进行组件的组合，合并组件形成页面
 - 构造器(构造函数)
 - 自动化构建工具
@@ -88,7 +88,7 @@ let vm = new Vue({
     }
 })
 ```
-#### 2、app.vue
+## 2、app.vue
 
 ```
 自动添加前缀
@@ -156,14 +156,14 @@ vue-style-loader
     }
 </style>
 ```
-#### 3、ajax
+## 3、ajax
 - axios
-#### 4、取dom元素
+## 4、取dom元素
 
 ```
   ref="aaa"   this.$refs.aaa
 ```
-#### 6、轮播图 element-ui
+## 6、轮播图 element-ui
 ```
 main.js
 import Element from 'element-ui'
@@ -180,7 +180,7 @@ Vue.use(Element)
 style
  @import url('element-ui/lib/theme-chalk/index.css');
 ```
-#### 7、mock
+## 7、mock
 
 ```
 下包：
@@ -203,7 +203,7 @@ mock.onGet('地址').reply(200,{
 
 ```
 
-#### 8、vue-lazyload
+## 8、vue-lazyload
 
 ```
 1、安装插件
@@ -220,7 +220,7 @@ Vue.use(VueLazyLoad,{
 <img class="item-pic" v-lazy="newItem.picUrl"/>
 
 ```
-#### 9、插槽
+## 9、插槽
 
 ```
 <slot></slot>
@@ -229,7 +229,7 @@ Vue.use(VueLazyLoad,{
 vertival-align:sub
 
 ```
-#### 10、缓存页面
+## 10、缓存页面
 
 ```
 用这个标签包裹起来
@@ -238,7 +238,7 @@ vertival-align:sub
     <router-view/>
 </keep-alive>
 ```
-#### 11、事件修饰符
+## 11、事件修饰符
 > .stop
 .prevent
 .capture
@@ -262,7 +262,7 @@ vertival-align:sub
 <!-- click 事件只能点击一次，2.1.4版本新增 -->
 <a v-on:click.once="doThis"></a>
 ```
-#### 12、按键修饰符
+## 12、按键修饰符
 .enter
 
 .tab
@@ -288,7 +288,7 @@ vertival-align:sub
 .shift
 
 .meta
-#### 13、表单修饰符
+## 13、表单修饰符
 - .lazy
 - .number
 - .trim

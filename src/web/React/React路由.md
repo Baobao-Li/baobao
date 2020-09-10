@@ -2,8 +2,8 @@
 title: React路由
 ---
 
-##### 路由模式(2种)
-1. hash
+## 路由模式(2种)
+## 1. hash
  
 ```
 改变地址 -> push     ->  window.location.hash=
@@ -11,7 +11,7 @@ title: React路由
 hashchange
 ```
 
-2. browser/history
+## 2. browser/history
 
 ```
 改变地址 -> pushstate  -> window.history.pushState({}, `这是标题`, this.getAttribute('href'));

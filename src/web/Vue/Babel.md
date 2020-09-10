@@ -2,10 +2,10 @@
 title: Babel
 ---
 
-#### 1、Babel
+## 1、Babel
 - 是javascript的编译器/解码器/转码器/解析器
 
-#### 2、配置
+## 2、配置
 - .babelrc
 
 ```
