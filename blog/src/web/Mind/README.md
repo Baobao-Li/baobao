@@ -3,7 +3,6 @@ title: 思维导图版知识点总结
 sidebar: auto
 sidebarDepth: 2
 ---
-# 思维导图版知识点总结
 
 ## Vue
 ![vue](http://assets.processon.com/chart_image/5af6a37ae4b0a0f0f1a05a36.png)

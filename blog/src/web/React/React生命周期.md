@@ -1,4 +1,3 @@
-# React生命周期
 #### 1、componentDidMount() // 组件挂载完成之后触发的生命周期 相当于vue的mounted
 ```
 componentDidMount(){

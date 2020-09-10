@@ -1,4 +1,3 @@
-# MVVM
 #### 1、MVVM是什么？
 1. MVVM是Model-View-ViewModel的简写
 2. 它本质上是MVC 的改进版

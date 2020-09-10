@@ -1,4 +1,3 @@
-# Vue一些对比
 #### 一、methods和computed
 - computed是计算属性，methods是方法。
 - computed计算属性是基于它们的依赖进行==缓存==的

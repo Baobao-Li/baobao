@@ -1,4 +1,3 @@
-# Promise/Aysnc
 #### 1、es6定义变量
 1. var
 2. let

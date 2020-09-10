@@ -4,7 +4,7 @@ home: true
 heroImage: '/logo.jpg' 
 isShowTitleInHome: true
 actionText: 'Let`s Go →'
-actionLink: /exploit/Start.html
+actionLink: /exploit/
 features:
 # - title: 
 #   details: 把所有的不快给昨天

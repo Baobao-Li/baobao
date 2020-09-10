@@ -48,51 +48,24 @@ module.exports = {
               { text: 'Git', link: '/web/Git/' },
             ]
           },
+          { text: '关于我', link: '/about/', icon: 'reco-message' },
           { text: 'GitHub', link: 'https://github.com/Baobao-Li/Blog', icon: 'reco-github' },
         ],
         // 侧边栏
         sidebar: {
-          '/exploit/': [{
-            title: '快速搭建开发环境', children: [
-              ''
-            ]
-          }],
-          '/web/Mind/': [{
-            title: '思维导图版知识点总结', children: [
-              ''
-            ]
-          }],
-          '/web/Vue/': [{
-            title: 'Vue知识点', children: ['', 'Es6', 'Es6方法扩展', 'Webpack', 'Babel', 'Promise', 'Vue 各种方法之间的区别', 'Vue组件', 'Vue路由', 'Vue动画', 'vue钩子函数', 'vuex']
-          }],
-          '/web/React/': [{
-            title: 'React知识点', children: [
-              '', 'JSX', 'MVVM', 'Props', 'React生命周期', 'React组件', 'React路由', 'redux', 'redux中间件', '组件通信', '高阶组件'
-            ]
-          }],
-          '/web/ReactHooks/': [{
-            title: 'React Hooks', children: [
-              ''
-            ]
-          }],
-          '/web/VX/': [{
-            title: '小程序知识点', children: [
-              '', 'WXS', 'wepy组件通信', '小程序事件', '小程序路由', '小程序组件', '小程序组件化'
-            ]
-          }],
-          '/web/Webpack/': [{
-            title: 'Webpack', children: [
-              '',
-            ]
-          }],
-          '/web/Ts/': [{
-            title: 'TypeScript', children: [
-              '','TypeScript高级用法']
-          }],
-          '/web/Git/': [{
-            title: 'Git操作', children: [
-              '']
-          }],
+          // 快速搭建开发环境
+          '/exploit/': SidebarConfig('快速搭建开发环境', ['']),
+          // Web
+          '/web/Mind/': SidebarConfig('思维导图版知识点总结', ['']),
+          '/web/Vue/': SidebarConfig('Vue知识点', ['', 'Es6', 'Es6方法扩展', 'Webpack', 'Babel', 'Promise', 'Vue 各种方法之间的区别', 'Vue组件', 'Vue路由', 'Vue动画', 'vue钩子函数', 'vuex']),
+          '/web/React/': SidebarConfig('React知识点', ['', 'JSX', 'MVVM', 'Props', 'React生命周期', 'React组件', 'React路由', 'redux', 'redux中间件', '组件通信', '高阶组件']),
+          '/web/ReactHooks/': SidebarConfig('React Hooks', ['']),
+          '/web/VX/': SidebarConfig('小程序知识点', ['', 'WXS', 'wepy组件通信', '小程序事件', '小程序路由', '小程序组件', '小程序组件化']),
+          '/web/Webpack/': SidebarConfig('Webpack', ['']),
+          '/web/Ts/': SidebarConfig('TypeScript', ['', 'TypeScript高级用法']),
+          '/web/Git/': SidebarConfig('Git操作', ['']),
+          // 关于我
+          '/about/': SidebarConfig('关于我', ['']),
         },
       }
     },
@@ -114,4 +87,13 @@ module.exports = {
     },
     // https://vuepress-theme-reco.recoluan.com/
   }
+}
+
+function SidebarConfig(title, children) {
+  return [
+    {
+      title,
+      children
+    }
+  ]
 }
