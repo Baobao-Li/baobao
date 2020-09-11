@@ -1,10 +1,12 @@
 module.exports = {
   dest: './docs/',
   base: '/Blog/',
+  // title: "紫云烟",
   locales: {
     '/': {
       lang: 'zh-CN',
       title: '前端知识点总结',
+      // title: " ",
       description: '任何不能够给你快乐的编程都是耍流氓'
     }
   },
@@ -33,9 +35,9 @@ module.exports = {
         // 导航
         nav: [
           { text: '首页', link: '/', icon: 'reco-home' },
-          { text: '快速搭建开发环境', link: '/exploit/', icon: 'reco-document' },
+          { text: '快速搭建开发环境', link: '/exploit/', icon: 'reco-tag' },
           {
-            text: 'Web知识点',
+            text: 'Web知识点', icon: 'reco-category',
             items: [
               { text: '思维导图', link: '/web/Mind/' },
               { text: 'Vue', link: '/web/Vue/' },
@@ -48,7 +50,7 @@ module.exports = {
             ]
           },
           { text: '关于我', link: '/about/', icon: 'reco-message' },
-          { text: 'GitHub', link: 'https://github.com/Baobao-Li/Blog', icon: 'reco-github' },
+          // { text: 'GitHub', link: 'https://github.com/Baobao-Li/Blog', icon: 'reco-github' },
         ],
         // 侧边栏
         sidebar: {
@@ -83,6 +85,15 @@ module.exports = {
     markdown: {
       // 是否在每个代码块的左侧显示行号。
       lineNumbers: true
+    },
+    // 评论
+    valineConfig: {
+      appId: '',
+      appKey: '',
+      placeholder: '填写邮箱可以收到回复哦!',
+      notify: true, // 邮件提醒
+      verify: true, // 验证码
+      recordIP: true
     },
     // https://vuepress-theme-reco.recoluan.com/
   }
