@@ -1,12 +1,10 @@
 module.exports = {
   dest: './docs/',
   base: '/Blog/',
-  // title: "紫云烟",
   locales: {
     '/': {
       lang: 'zh-CN',
       title: '前端知识点总结',
-      // title: " ",
       description: '任何不能够给你快乐的编程都是耍流氓'
     }
   },
@@ -50,7 +48,7 @@ module.exports = {
             ]
           },
           { text: '关于我', link: '/about/', icon: 'reco-message' },
-          // { text: 'GitHub', link: 'https://github.com/Baobao-Li/Blog', icon: 'reco-github' },
+          { text: 'GitHub', link: 'https://github.com/Baobao-Li/Blog', icon: 'reco-github' },
         ],
         // 侧边栏
         sidebar: {

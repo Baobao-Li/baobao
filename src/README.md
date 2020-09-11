@@ -15,6 +15,8 @@ features:
 #   details: 把所有的希望给明天
 footer: MIT Licensed | Copyright © 2018-present Evan You
 ---
+<!-- 线条 -->
+<CanvasNest color="255,0,0" count="111"/>
 
 ### 起步就像数 1, 2, 3 一样容易
 
@@ -69,26 +71,7 @@ vuepress build
 <!-- https://gitee.com/bingyu123/blog -->
 <!-- https://bingyu123.gitee.io/blog/ -->
 
-<!-- 线条 -->
-<CanvasNest color="255,0,0" count="111"/>
-<script>
-export default {
-  components: {
-    CanvasNest: () => import("./components/CanvasNest")
-  },
-};
-</script>
-
 <style lang="css">
-#app:before {
-  content: "";
-  background: url(https://ae01.alicdn.com/kf/HTB1y5zVXv1H3KVjSZFH762KppXaH.png);
-  height: 3px;
-  top: 0;
-  position: fixed;
-  width: 100%;
-  Z-index: 9999;
-}
 .home, 
 .content__default {
   /* margin: 0 !important;
@@ -99,22 +82,5 @@ export default {
 }
 .content__default {
   
-}
-#app .site-name {
-  font-family: 楷体;
-  font-size: 1.6rem;
-  background: -webkit-linear-gradient(45deg, rgb(112, 247, 254), rgb(251, 215, 198), rgb(253, 239, 172), rgb(191, 181, 221), rgb(190, 213, 245));
-  -webkit-text-fill-color: transparent;
-  -webkit-background-clip: text;
-  animation: stream 3s infinite linear;
-  background-size: 200% 100%;
-}
-@keyframes stream {
-  0%  {
-    background-position: 0 0;
-  }
-  100% {
-    background-position: -100% 0;
-  }
 }
 </style>

@@ -8,14 +8,13 @@ isShowComments: true
 <p align="center">
   <img style="border-radius:41%;pointer-events:none;transform: scale(0.9);" :src="$withBase('/logo.jpg')" alt="Baobao-Li" width=160>
 </p>
-<p align="center" style="margin-top: -15px;">
-  <a href="https://baobao-li.github.io/Blog/" class="zi zi_textbook"></a> 
-  <a href="" class="zi zi_envelope"></a> 
-  <a href="https://github.com/Baobao-Li" class="zi zi_tmGithub"></a>
-  <a href="" class="zi zi_tmTwitter"></a>
-  <a href="" class="zi zi_tmQq"></a>
-</p>
 
+<div class="outerLink">
+  <div class="outerLink_item" @click="linkEvent(item.href)" v-for="(item,index) in outerLink" :key="index">
+    <i v-bind:class="[item.icon ? 'iconfont ' + item.icon : '']"></i>
+    <div><span></span></div>
+  </div>
+</div>
 <!-- 时间 -->
 <Times />
 <!-- 线条 -->
@@ -65,10 +64,42 @@ isShowComments: true
 
 
 <script>
+
 export default {
-   components: {
-    Times: () => import("../components/Time"),
-    CanvasNest: () => import("../components/CanvasNest")
+  data(){
+    return {
+      outerLink: [
+        {
+          href: "",
+          icon: "reco-mayun"
+        },
+        {
+          href: "",
+          icon: "reco-mail"
+        },
+        {
+          href: "https://github.com/Baobao-Li/Blog",
+          icon: "reco-github"
+        },
+        {
+          href: "",
+          icon: "reco-twitter"
+        },
+        {
+          href: "",
+          icon: "reco-qq"
+        }
+      ]
+    }
   },
+  methods: {
+    linkEvent(href){
+      window.open(href)
+    }
+  }
 };
 </script>
+
+<style lang="scss">
+  @import "./index.scss";
+</style>

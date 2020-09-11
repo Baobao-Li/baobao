@@ -21,7 +21,7 @@ export default {
     zIndex: {
       // 画面层级
       type: String,
-      default: "",
+      default: "30",
     },
     global: {
       // 是否全局引入
