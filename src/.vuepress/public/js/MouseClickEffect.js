@@ -5,9 +5,9 @@ function getRandom(max, min) {
 let BODY = document.querySelector("body")
 // let BODY = document.body
 // let BODY = document.querySelector("html")
-console.log(BODY,"BODY")
-    // console.log(document.querySelector(`.${header.slug}`))
-    // document.querySelector(`.${header.slug}`).scrollIntoView()
+console.log(BODY, "BODY")
+// console.log(document.querySelector(`.${header.slug}`))
+// document.querySelector(`.${header.slug}`).scrollIntoView()
 // let BODY = document.getElementsByTagName("body")
 const Arr = ["css", "scss", "node-sass", "sass-loader", "moment", "TypeScript", "HTML", "uni-app", "Ant Design Mobile", "js", "Vue", "vuepress", "React", "jquery", "Swiper", "Vant", "Element-ui", "react-router-dom", "redux", "axios", "mockjs", "react-redux ", "Vuex"];
 BODY.addEventListener("click", (e) => {
