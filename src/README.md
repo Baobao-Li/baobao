@@ -1,7 +1,7 @@
 ---
 home: true
 # 中央图标
-heroImage: '/logo.jpg' 
+heroImage: '/img/logo.jpg' 
 isShowTitleInHome: true
 actionText: 'Let`s Go →'
 actionLink: /exploit/

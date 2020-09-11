@@ -6,7 +6,7 @@ isShowComments: true
 ---
 
 <p align="center">
-  <img style="border-radius:41%;pointer-events:none;transform: scale(0.9);" :src="$withBase('/logo.jpg')" alt="Baobao-Li" width=160>
+  <img style="border-radius:41%;pointer-events:none;transform: scale(0.9);" :src="$withBase('/img/logo.jpg')" alt="Baobao-Li" width=160>
 </p>
 
 <div class="outerLink">

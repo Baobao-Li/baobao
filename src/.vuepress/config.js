@@ -9,7 +9,7 @@ module.exports = {
     }
   },
   head: [
-    ['link', { rel: 'icon', href: '/logo.jpg' }],
+    ['link', { rel: 'icon', href: '/img/logo.jpg' }],
     ['meta', { name: 'viewport', content: 'width=device-width,initial-scale=1,user-scalable=no' }]
   ],
   // 主题
@@ -19,7 +19,7 @@ module.exports = {
     search: true,
     searchMaxSuggestions: 10,
     // 导航栏 Logo
-    logo: '/logo.jpg',
+    logo: '/img/logo.jpg',
     // 开启侧边栏
     // sidebar: 'auto',
     // sidebarDepth: 1,
