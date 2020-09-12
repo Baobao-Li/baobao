@@ -2,7 +2,6 @@ import Vue from "vue"
 // 公共css
 import "./public/css/index.css"
 
-
 // 引入公共组件
 Vue.mixin({
   components: {
@@ -12,8 +11,16 @@ Vue.mixin({
     Times: () => import("../components/Time/"),
   },
   mounted() {
-    // 鼠标点击效果
-    import("./public/js/MouseClickEffect.js")
+    // 如果为真是PC登录页面否则是H5登录页面
+    if (!/Android|webOS|iPhone|iPod|BlackBerry/i.test(navigator.userAgent)) {
+      //! PC登录
+      // 鼠标点击效果
+      import("./public/js/MouseClickEffect.js")
+      return
+    } else {
+      //! H5登录
+      return
+    }
   }
 })
 
