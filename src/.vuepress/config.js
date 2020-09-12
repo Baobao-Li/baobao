@@ -1,3 +1,5 @@
+const plugins = require('./config/plugins/')
+
 module.exports = {
   dest: './docs/',
   base: '/Blog/',
@@ -96,7 +98,8 @@ module.exports = {
       recordIP: true
     },
     // https://vuepress-theme-reco.recoluan.com/
-  }
+  },
+  plugins
 }
 
 function SidebarConfig(title, children) {
