@@ -16,7 +16,7 @@ isShowComments: true
   </div>
 </div>
 <!-- 时间 -->
-<Times />
+<Times/>
 <!-- 线条 -->
 <CanvasNest color="255,0,0"/>
 
