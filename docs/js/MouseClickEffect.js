@@ -57,20 +57,17 @@
 
 import jQuery from "jquery"
 
-var a_idx = 0;
-
 function getRandom(max, min) {
   return Math.floor(Math.random() * (max - min + 1) + min);
 }
 jQuery(document).ready(function ($) {
   $("body").click(function (e) {
-    var a = new Array("富强", "民主", "文明", "和谐", "自由", "平等", "公正", "法治", "爱国", "敬业", "诚信", "友善");
-    var $i = $("<span/>").text(a[a_idx]);
-    a_idx = (a_idx + 1) % a.length;
+    var a = new Array("css", "scss", "node-sass", "sass-loader", "moment", "TypeScript", "HTML", "uni-app", "Ant Design Mobile", "js", "Vue", "vuepress", "React", "jquery", "Swiper", "Vant", "Element-ui", "react-router-dom", "redux", "axios", "mockjs", "react-redux ", "Vuex");
+    var $i = $("<span/>").text(a[Math.round(Math.random() * a.length)]);
     var x = e.pageX,
       y = e.pageY;
     $i.css({
-      "z-index": 999999999999999999999999999999999999999999999999999999999999999999999,
+      "z-index": new Date() * 1,
       "top": y - 20,
       "left": x,
       "position": "absolute",

@@ -9,7 +9,7 @@ Vue.mixin({
     // 线条
     CanvasNest: () => import("../components/CanvasNest"),
     // 时间
-    Times: () => import("../components/Time")
+    Times: () => import("../components/Time"),
   },
   mounted() {
     // 鼠标点击效果
