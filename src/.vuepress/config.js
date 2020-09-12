@@ -86,8 +86,8 @@ module.exports = {
     },
     // 评论
     valineConfig: {
-      appId: '',
-      appKey: '',
+      appId: 'Trwckl7wKNY3wKLM1ElptTri-gzGzoHsz',
+      appKey: 'SR6LrGyTVmpNfJWyQyzCv96z',
       placeholder: '填写邮箱可以收到回复哦!',
       notify: true, // 邮件提醒
       verify: true, // 验证码

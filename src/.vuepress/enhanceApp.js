@@ -7,9 +7,9 @@ import "./public/css/index.css"
 Vue.mixin({
   components: {
     // 线条
-    CanvasNest: () => import("../components/CanvasNest"),
+    CanvasNest: () => import("../components/CanvasNest/"),
     // 时间
-    Times: () => import("../components/Time"),
+    Times: () => import("../components/Time/"),
   },
   mounted() {
     // 鼠标点击效果
