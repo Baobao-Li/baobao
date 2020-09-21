@@ -1,3 +1,16 @@
+// import Vue from "vue"
+
+// Vue.mixin({
+//   mounted() {
+//     import('./public/css/iconfont.css')
+//   }
+// })
+
+// 引入全局icon
+import "./public/css/iconfont.css"
+
+
+
 // 使用异步函数也是可以的
 export default ({
   Vue, // VuePress 正在使用的 Vue 构造函数

@@ -16,7 +16,8 @@ if (!/Android|webOS|iPhone|iPod|BlackBerry/i.test(navigator.userAgent)) {
         "font-weight": "bold",
         "color": `rgb(${getRandom(255, 0)},${getRandom(255, 0)},${getRandom(255, 0)})`,
         "user-select": 'none',
-        "cursor": 'default'
+        "cursor": 'default',
+        "white-space": 'nowrap'
       });
       $("body").append($i);
       $i.animate({
