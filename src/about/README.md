@@ -56,13 +56,6 @@ isShowComments: true
 
 - <i class="zi zi_envelopeBold" zico="黑信封"></i> Email：[a1261964921@qq.com](mailto:a1261964921@qq.com)
 
-### 其他
-
-- 本仓库代码使用 [MIT](https://github.com/SigureMo/notev/blob/master/LICENSE) 协议进行开源，但是全部文档内容使用 [CC 4.0 BY-SA](https://creativecommons.org/licenses/by-sa/4.0/) 协议进行发布
-
-
-
-
 <script>
 
 export default {

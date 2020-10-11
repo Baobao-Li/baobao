@@ -177,6 +177,7 @@ export default {
   display: flex;
   align-items: center;
   box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.2);
+  background: #ffffff;
   .iconfont {
     font-size: 16px;
   }
@@ -216,6 +217,7 @@ export default {
         display: flex;
         align-items: center;
         margin-top: 5px;
+        color: #000000;
       }
       // 歌手名称
       .singerName {
@@ -223,6 +225,7 @@ export default {
         display: flex;
         align-items: center;
         margin-top: 5px;
+        color: #000000;
       }
     }
     // 切换 - 进度条 - 上一首 - 暂停 - 下一首
